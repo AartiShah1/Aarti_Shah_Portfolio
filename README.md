@@ -1,2 +1,2 @@
-![profile-img](https://github.com/user-attachments/assets/517a56e6-56f6-4260-9f0f-cc51e5ff6349)
-#skills
+![projects-img](https://github.com/user-attachments/assets/da73ec83-88d1-4e6e-b319-dfa3ad7d0bca)
+#projects
