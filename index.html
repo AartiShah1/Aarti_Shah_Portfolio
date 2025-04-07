@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-icon">
+
+    <title>Portfolio | Aarti Shah</title>
+
+   
+
+</head>
+<body>
+    
+   <div class="container">
+   
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Aarti Shah</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Skills</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#services" class="nav-link">Services</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                 
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div> -->
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Aarti Shah</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p style="text-align: justify;">
+                    "Welcome! I’m Aarti, a UI/UX Designer and Frontend Developer on a mission to transform ideas into visually stunning, functional digital experiences. With a blend of design thinking and technical execution, I craft intuitive interfaces that users love and developers admire. From wireframes to clean code, I bridge creativity and functionality to deliver results. Let’s collaborate to bring your vision to life!"
+                </p>
+            </div>
+         
+            <div class="featured-text-btn">
+                <button class="btn blue-btn" onclick="document.querySelector('.nav-link[href=\'#projects\']').click()">More About Me</button>
+
+                <!-- <button class="btn blue-btn">About Me</button> -->
+                <!-- <button class="btn">Download CV <i class="uil uil-file-alt"></i></button> -->
+            </div>
+            <!-- <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div> -->
+
+            <div class="social_icons">
+                <a href="https://www.instagram.com/infoaartishah/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aarti-shah-70a9a5292/" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://www.behance.net/aartishah11" target="_blank" class="icon"><i class="uil uil-dribbble"></i></a>
+                <a href="https://github.com/AartiShah1" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+            </div>
+            
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/img-2.jpg" alt="avatar">
+            </div>
+          </div>
+          <!-- <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div> -->
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+       
+
+        <div class="skills-container">
+            <h1 class="skills-title">My Skills</h1>
+            
+       
+            <div class="skills-row">
+                <!-- Development Skills -->
+                <div class="skill-card html">
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML5</h2>
+                    <p>Semantic markup and accessibility</p>
+                </div>
+                
+                <div class="skill-card css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS3</h2>
+                    <p>Flexbox, Grid, and animations</p>
+                </div>
+                
+                <div class="skill-card bootstrap">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Bootstrap</h2>
+                    <p>Responsive frameworks and components</p>
+                </div>
+            </div>
+            
+            <div class="skills-row">
+                <!-- Additional Skills -->
+                <div class="skill-card js">
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>ES6+, DOM manipulation</p>
+                </div>
+                
+                <div class="skill-card react">
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React</h2>
+                    <p>Component-based architecture</p>
+                </div>
+                
+                <div class="skill-card responsive">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Responsive</h2>
+                    <p>Mobile-first design principles</p>
+                </div>
+            </div>
+    
+    
+            <div class="skills-row">
+                <!-- Design Skills -->
+                <div class="skill-card figma">
+                    <svg viewBox="0 0 38 57" width="50" height="50" style="margin-bottom: 20px;">
+                        <path fill="#0ACF83" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"/>
+                        <path fill="#A259FF" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"/>
+                        <path fill="#F24E1E" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"/>
+                        <path fill="#FF7262" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"/>
+                        <path fill="#1ABCFE" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"/>
+                    </svg>
+                    <h2>Figma</h2>
+                    <p>UI/UX design, prototyping, and design systems</p>
+                </div>
+                
+                
+                <div class="skill-card adobe-xd">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/512px-Adobe_XD_CC_icon.svg.png" 
+                         alt="Adobe XD" 
+                         style="width: 50px; height: 50px; margin-bottom: 20px;">
+                    <h2>Adobe XD</h2>
+                    <p>Wireframing, prototyping, and UI design</p>
+                </div>
+                
+                <div class="skill-card illustrator">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Illustrator</h2>
+                    <p>Vector graphics and icon design</p>
+                </div>
+            </div>
+            
+            <div class="skills-row">
+                <!-- UX Process Skills -->
+                <div class="skill-card user-research">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>User Research</h2>
+                    <p>Personas, user flows, and usability testing</p>
+                </div>
+                
+                <div class="skill-card wireframing">
+                    <i class="fa-solid fa-object-group"></i>
+                    <h2>Wireframing</h2>
+                    <p>Low to high fidelity wireframes</p>
+                </div>
+                
+                <div class="skill-card prototyping">
+                    <i class="fa-solid fa-sliders"></i>
+                    <h2>Prototyping</h2>
+                    <p>Interactive prototypes and user testing</p>
+                </div>
+            </div>
+            
+    
+            
+        </div>
+
+       </section>
+
+       <!-- -------------- Project Section ---------------- -->
+
+       <section  class="portfolio-section" id="projects">
+        <h1 class="skills-title">My Recent Projects</h1>
+        <div class="container-project">
+          
+        
+            <br>
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Web Development Projects -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Software development landing page.png" alt="Software Development Company">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Software Development Company</h3>
+                        <p>A complete website for a software development company showcasing services and portfolio.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Jwellery.png" alt="Divine Jewelers">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Vaishno Jewellerys</h3>
+                        <p>E-commerce website for a premium jewellery brand with product showcase and online ordering.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/School Dashboard.png" alt="School Website">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>School Dashboard</h3>
+                        <p>Interactive and user-friendly school dashboard with real-time student data, attendance tracking, and performance analysis.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Hospital Landing Page.png" alt="Hospital Website">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Hospital Website</h3>
+                        <p>Healthcare website with appointment system, doctor profiles, and medical information.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Weather Website">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Weather Website</h3>
+                        <p>Interactive weather application with real-time data visualization and forecasts.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-tag">Web</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Ecommerce Website_Become a Seller Home Page.png" alt="Fashion Ecommerce">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Fashion Ecommerce</h3>
+                        <p>Complete online store for fashion brand with product filtering and secure checkout.</p>
+                    </div>
+                </div>
+                
+                <!-- UI/UX Design Projects -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="School UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>School UI/UX Design</h3>
+                        <p>Modern interface design for school management system with intuitive navigation.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hospital UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Hospital UI/UX Design</h3>
+                        <p>Healthcare application design focusing on accessibility and user experience.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Construction_Design.png" alt="Construction UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Construction UI/UX Design</h3>
+                        <p>Construction company website design with project showcase and contact features.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Medical_Design.png" alt="Medical UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Medical UI/UX Design</h3>
+                        <p>Medical application interface with patient data visualization and appointment system.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/EDUU.png" alt="Education UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Education UI/UX Design</h3>
+                        <p>E-learning platform design with course management and interactive elements.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="project-tag">UI/UX</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/Ecommerce Website.png" alt="Ecommerce UI/UX">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Ecommerce Full Design</h3>
+                        <p>Complete e-commerce user experience from product discovery to checkout.</p>
+                    </div>
+                </div>
+                
+                <!-- Mobile App Projects -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="project-tag">Mobile</div>
+                    <div class="portfolio-image">
+                        <img src="./assets/images/School App Design.PNG" alt="School App">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>School Mobile App</h3>
+                        <p>Mobile application for school communication, assignments, and event management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      
+       
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section"  id="services">
+        <div class="top-header">
+            <h1 class="skills-title">Our Services</h1>
+           
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>UI/UX Designing</h3>
+                <label>At the heart of every digital product lies an exceptional user experience. As a UI/UX designer, I specialize in creating intuitive and visually appealing designs from wireframing to prototyping. I ensure seamless interactions and interfaces.</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-laptop">
+                 
+                </i>
+                <h3>Web Development</h3>
+                <label>I specialize in bringing your digital vision to life. From crafting responsive and user-friendly websites to developing custom web applications, I combine creativity with technical expertise to deliver results. With a focus on clean code and modern design principles.</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-desktop-alt"></i>
+                <h3>Frontend Development</h3>
+                <label>As a Frontend Developer, I translate designs into interactive, high-performance web applications. I focus on writing clean, efficient code using HTML, CSS, JavaScript, and modern frameworks to create seamless user experiences across devices.</label>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+
+
+
+        
+  <!-- -------------- CONTACT BOX ---------------- -->
+
+  <section class="section" id="contact">
+    <div class="top-header">
+     
+      <h1 class="skills-title">Get in touch</h1>
+      <span>Do you have a project in your mind, contact me here</span>
+    </div>
+
+    <div class="row">
+      
+         <div class="contact-info">
+             <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+             <p style="color: #eaeef5;"><i class="uil uil-envelope"></i>Email: infoaartishah@gmail.com</p>
+             <!-- <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p> -->
+          
+             <p style="color: #eaeef5;"> <i class="uil uil-corner-right-down"></i> Nepal</p>
+            <br>
+             <div class="footer-social-icons">
+              <a href="https://www.instagram.com/infoaartishah/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/aarti-shah-70a9a5292/" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+              <a href="https://www.behance.net/aartishah11" target="_blank" class="icon"><i class="uil uil-dribbble"></i></a>
+              <a href="https://github.com/AartiShah1" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+          </div>
+
+
+         </div>
+        </div>
+    </section>
+
+ 
+ <section id="contact-c" class="contact-c">
+  <div class="container">
+    <h1 class="skills-title">Contact</h1>
+    <div class="contact-c-form">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="39e320a3-35d5-4335-90be-1f86e409cf10">
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+    
+  
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Aarti Shah .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div> -->
+
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com/infoaartishah/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/aarti-shah-70a9a5292/" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="https://www.behance.net/aartishah11" target="_blank" class="icon"><i class="uil uil-dribbble"></i></a>
+            <a href="https://github.com/AartiShah1" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Aarti Shah</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+    
+
+    <script>
+        // Enhanced Filter functionality with animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Update active button with animation
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.style.transform = '';
+                    });
+                    
+                    button.classList.add('active');
+                    button.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        button.style.transform = '';
+                    }, 200);
+                    
+                    const filterValue = button.getAttribute('data-filter');
+                    
+                    // Filter items with fade animation
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.opacity = '0';
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                            }, 50);
+                        } else {
+                            item.style.opacity = '0';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
